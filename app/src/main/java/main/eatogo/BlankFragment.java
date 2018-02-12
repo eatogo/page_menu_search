@@ -23,7 +23,7 @@ public class BlankFragment extends Fragment {
 
             @Override
             public void onClick(View v) {
-                //在这里使用getActivity
+                //在這裡使用getActivity
                 Intent intent = new Intent(getActivity(),research_menu.class);
                 startActivity(intent);
             }

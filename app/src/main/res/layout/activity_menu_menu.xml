@@ -7,4 +7,65 @@
     android:background="@drawable/card_menu_background"
     tools:context="main.eatogo.Menu_menu">
 
+    <TextView
+        android:id="@+id/tv_foodname"
+        android:layout_width="338dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="400dp"
+        android:text="15"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_foodresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="333dp"
+        android:text="沙朗牛肉"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_ovride"
+        android:layout_width="86dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginStart="9dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bt_shopping"
+        android:layout_width="86dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginStart="20dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt_ovride" />
+
+    <Button
+        android:id="@+id/bt_order_rules"
+        android:layout_width="86dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/srelet" />
+
+    <ImageButton
+        android:id="@+id/srelet"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/bt_ninepage_xxhdpi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
