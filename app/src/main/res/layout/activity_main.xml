@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_main_background2_xxhdpi"
+    tools:context="main.eatogo.MainActivity">
+
+    <Spinner
+        android:id="@+id/spinner_area"
+        android:layout_width="137dp"
+        android:layout_height="62dp"
+
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bt_area_xxhdpi"
+        android:spinnerMode="dropdown"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner_city"
+        android:layout_width="136dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/spinner_area"
+        android:background="@drawable/bt_city_xxhdpi"
+
+        android:prompt="@string/citys"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="411dp"
+        android:layout_height="539dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_city"
+        tools:layout="@layout/fragment_blank">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="429dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/ad_xxhdpi"
+        android:contentDescription="@string/common_signin_button_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bt_ninepage_xxhdpi"
+        android:contentDescription="@string/common_signin_button_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment"
+        app:srcCompat="@android:color/transparent" />
+
+</android.support.constraint.ConstraintLayout>

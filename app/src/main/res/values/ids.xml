@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="spinner_area" type="id">spinner_area</item>
+    <item name="spinner_city" type="id">spinner_city</item>
+</resources>

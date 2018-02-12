@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1003637825158",
+    "firebase_url": "https://eatogo-ab0f1.firebaseio.com",
+    "project_id": "eatogo-ab0f1",
+    "storage_bucket": "eatogo-ab0f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003637825158:android:1a85edef981821bd",
+        "android_client_info": {
+          "package_name": "main.eatogo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003637825158-h1dqi55ueq739cvbs3f7piuaairtpp81.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "main.eatogo",
+            "certificate_hash": "c2e46428913686f697bddf47af6cc18a605f486b"
+          }
+        },
+        {
+          "client_id": "1003637825158-e5ic0ctd6lvmifu1b00jlifgpdlphcni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS-mGPKv6Oo-ooVRCiZnlUq6VjKN411sQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003637825158-e5ic0ctd6lvmifu1b00jlifgpdlphcni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

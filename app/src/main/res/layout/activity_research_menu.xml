@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/research_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_search_menu"
+    android:orientation="vertical"
+    tools:context="main.eatogo.research_menu">
+
+    <FrameLayout
+        android:id="@+id/fragment2"
+        android:layout_width="412dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_memu_list">
+
+
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

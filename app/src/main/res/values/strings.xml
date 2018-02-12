@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">eatogo</string>
+    <string name="citys">citys</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_research_menu">research_menu</string>
+    <string name="store_name">旺角迷你石頭火鍋</string>
+    <string name="store_id">id</string>
+    <string name="food_name">沙朗牛肉</string>
+    <string name="food_review_count">1345</string>
+</resources>
