@@ -2,15 +2,13 @@ package main.eatogo;
 public class foods {
     private int id;
     private int image;
-    private String name;
-    public foods(){
-        super();
-    }
-    public foods(int id, int image, String name){
+    private String name,name2;
+    public foods(int id, int image, String name,String name2){
         super();
         this.id = id;
         this.image = image;
         this.name = name;
+        this.name2=name2;
     }
     public int getImage() {
         return image;
@@ -25,7 +23,15 @@ public class foods {
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.name2 = name2;
+    }
+
+    public String getName2() {
+        return name2;
+    }
+
+    public void setName2(String name) {
+        this.name2 = name2;
     }
 
     public int getId() {

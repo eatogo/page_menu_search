@@ -13,7 +13,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private Spinner spinner_area,spinner_city;
-    ArrayAdapter<String> adapter_area,adapter_city;
+    ArrayAdapter<String> adapter_area,adapter_city;//在此使用簡易的ArrayAdapter放入值，到spinner_area,spinner_city
     private List<String> list_area;
 
     String   citys[][]=

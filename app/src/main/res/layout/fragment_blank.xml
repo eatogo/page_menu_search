@@ -16,7 +16,7 @@
         <Button
             android:id="@+id/button"
             android:layout_width="188dp"
-            android:layout_height="149dp"
+            android:layout_height="147dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="7dp"
             android:background="@color/fbutton_color_transparent"

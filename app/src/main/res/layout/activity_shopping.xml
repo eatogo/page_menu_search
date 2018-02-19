@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_shopping_hdpi"
+    tools:context="main.eatogo.shopping">
+
+
+    <Button
+        android:id="@+id/bt_to_search_page"
+        android:layout_width="155dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginTop="82dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_confirm_order"
+        android:layout_width="127dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="9dp"
+        android:layout_marginEnd="136dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/bt_time"
+        android:layout_width="57dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="66dp"
+        android:layout_marginStart="33dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bt_toust"
+        android:layout_width="57dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="66dp"
+        android:layout_marginStart="12dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt_time" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="148dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="23dp"
+        android:layout_marginEnd="98dp"
+        android:background="@drawable/bt_list_time_hdpi"
+        android:spinnerMode="dialog"
+        app:layout_constraintBottom_toTopOf="@+id/bt_confirm_order"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/fragment_shopping"
+        android:layout_width="341dp"
+        android:layout_height="291dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="234dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>
