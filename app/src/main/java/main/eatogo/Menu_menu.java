@@ -16,14 +16,13 @@ public class Menu_menu extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         String name = bundle.getString("name2");
         TextView textView = (TextView)this.findViewById(R.id.tv_foodresult);
-        textView.setText("I love " + name + " !!!");
+        textView.setText(name);
         Button button = (Button)this.findViewById(R.id.bt_shopping);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Menu_menu.this, shopping.class);
                 startActivity(intent);
-
             }
         });
     }

@@ -16,14 +16,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/card_restaurant_xxhdpi" />
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpfoods"
         android:layout_width="wrap_content"
         android:layout_height="233dp"
         android:layout_marginTop="320dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/menu1_xxhdpi" />
+        app:layout_constraintTop_toTopOf="parent">
+
+    </android.support.v4.view.ViewPager>
 
     <ImageButton
         android:id="@+id/bt_right"
@@ -46,7 +47,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/bt_to_menu_menu"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="172dp"

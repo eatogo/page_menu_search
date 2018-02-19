@@ -1,5 +1,8 @@
 package main.eatogo;
-public class foods {
+
+import java.io.Serializable;
+
+public class foods implements Serializable{
     private int id;
     private int image;
     private String name,name2;

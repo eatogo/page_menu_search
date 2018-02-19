@@ -6,14 +6,12 @@
     android:layout_height="match_parent"
     android:background="@drawable/card_menu_background"
     tools:context="main.eatogo.Menu_menu">
-
     <TextView
         android:id="@+id/tv_foodname"
         android:layout_width="338dp"
         android:layout_height="176dp"
         android:layout_marginStart="48dp"
         android:layout_marginTop="400dp"
-        android:text="15"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,7 +22,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="70dp"
         android:layout_marginTop="333dp"
-        android:text="沙朗牛肉"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

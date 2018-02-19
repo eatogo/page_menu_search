@@ -99,18 +99,21 @@ public class research_menu extends Activity {
 
     public List<foods> getFoodsList() {
         List<foods> foodsList = new ArrayList<>();
-        foodsList.add(new foods(1, R.drawable.a1_1, "旺角迷你石頭火鍋","沙文牛肉"));
-        foodsList.add(new foods(2, R.drawable.a1_2, "Jack","沙文牛肉"));
-        foodsList.add(new foods(3, R.drawable.a1_3, "Mark","沙文牛肉"));
-        foodsList.add(new foods(4, R.drawable.a2_1, "Ben","沙文牛肉"));
-        foodsList.add(new foods(5, R.drawable.a2_2, "James","沙文牛肉"));
-        foodsList.add(new foods(6, R.drawable.a2_3, "David","沙文牛肉"));
-        foodsList.add(new foods(7, R.drawable.a3_1, "Ken","沙文牛肉"));
-        foodsList.add(new foods(8, R.drawable.a3_2, "Ron","沙文牛肉"));
-        foodsList.add(new foods(9, R.drawable.a3_3, "Jerry","沙文牛肉"));
-        foodsList.add(new foods(10, R.drawable.a4_1, "Maggie","沙文牛肉"));
-        foodsList.add(new foods(11, R.drawable.a4_2, "Sue","沙文牛肉"));
-        foodsList.add(new foods(12, R.drawable.a4_3, "Cathy","沙文牛肉"));
+        foodsList.add(new foods(1, R.drawable.a1_1, "旺角迷你石頭火鍋","霜降牛肉"));
+        foodsList.add(new foods(2, R.drawable.a1_2, "旺角迷你石頭火鍋","美國牛小排"));
+        foodsList.add(new foods(3, R.drawable.a1_3, "旺角迷你石頭火鍋","沙文牛肉"));
+        foodsList.add(new foods(4, R.drawable.a2_1, "金山肉包王","魯肉包"));
+        foodsList.add(new foods(5, R.drawable.a2_2, "金山肉包王","酸菜包"));
+        foodsList.add(new foods(6, R.drawable.a2_3, "金山肉包王","鮮蔥肉包"));
+        foodsList.add(new foods(7, R.drawable.a3_1, "泰味廚房","椒麻雞"));
+        foodsList.add(new foods(8, R.drawable.a3_2, "泰味廚房","辣炒豬肉"));
+        foodsList.add(new foods(9, R.drawable.a3_3, "泰味廚房","蝦醬高麗菜"));
+        foodsList.add(new foods(10, R.drawable.a4_1, "淡水可口魚丸店","魚丸湯"));
+        foodsList.add(new foods(11, R.drawable.a4_2, "淡水可口魚丸店","餛飩湯"));
+        foodsList.add(new foods(12, R.drawable.a4_3, "淡水可口魚丸店","肉包"));
+        foodsList.add(new foods(13, R.drawable.a5_1, "海堤竹筍餐廳","竹筍扣肉"));
+        foodsList.add(new foods(14, R.drawable.a5_2, "海堤竹筍餐廳","南瓜米粉"));
+        foodsList.add(new foods(15, R.drawable.a5_3, "海堤竹筍餐廳","和風竹筍"));
         return foodsList;
     }
 
