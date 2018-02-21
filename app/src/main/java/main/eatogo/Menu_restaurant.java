@@ -25,11 +25,21 @@ public class Menu_restaurant extends AppCompatActivity {
         FoodAdapter foodAdapter =new FoodAdapter(getSupportFragmentManager(),foodsList);
         vpfoods=(ViewPager)findViewById(R.id.vpfoods);
         vpfoods.setAdapter(foodAdapter);
+
         Button button = (Button)this.findViewById(R.id.bt_to_menu_menu);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Menu_restaurant.this, Menu_menu.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button2 = (Button)this.findViewById(R.id.bt_to_googleMap);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Menu_restaurant.this, map.class);
                 startActivity(intent);
             }
         });
