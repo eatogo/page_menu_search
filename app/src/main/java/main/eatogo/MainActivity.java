@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         spinner_area.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                adapter_city=new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,citys[position]);//通過二維陣列及position的值動態決定下一個選單內容
+                adapter_city=new ArrayAdapter<String>(MainActivity.this,R.layout.simple1_spinner_item,citys[position]);//通過二維陣列及position的值動態決定下一個選單內容
                 adapter_city.setDropDownViewResource(android.R.layout.simple_list_item_single_choice);//設置下拉式選單樣式
                 spinner_city.setAdapter(adapter_city);
 

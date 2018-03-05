@@ -1,6 +1,7 @@
 package main.eatogo;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
@@ -9,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 import java.util.ArrayList;
@@ -43,6 +45,25 @@ public class Menu_restaurant extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button button3 = (Button)this.findViewById(R.id.phone);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent dial = new Intent();
+                dial.setAction("android.intent.action.CALL");
+                dial.setData(Uri.parse("tel:0229747815"));
+                startActivity(dial);
+            }
+        });
+        Button button4 = (Button)this.findViewById(R.id.time_toast);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(Menu_restaurant.this,
+                        "營業時間：11:30 ~ 23:30", Toast.LENGTH_SHORT).show();
+            }
+        });
+
 
 
     }
