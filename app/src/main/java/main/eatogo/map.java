@@ -63,7 +63,7 @@ public class map extends FragmentActivity implements OnMapReadyCallback {
         uiSettings=mMap.getUiSettings();
         uiSettings.setZoomControlsEnabled(true);
         CameraPosition cameraPosition=new CameraPosition.Builder()
-                .target(hotpot_shop).zoom(4).build();
+                .target(hotpot_shop).zoom(15).build();
         CameraUpdate cameraUpdate=CameraUpdateFactory.newCameraPosition(cameraPosition);
         mMap.animateCamera(cameraUpdate);
 

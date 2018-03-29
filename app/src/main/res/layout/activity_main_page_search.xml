@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page1"
+    tools:context="main.eatogo.MainPage_search">
+
+    <Spinner
+        android:id="@+id/spinner_area"
+        android:layout_width="137dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="60dp"
+        style="@style/spinner_style"
+        android:spinnerMode="dropdown"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner_city"
+        android:layout_width="136dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/spinner_area"
+        style="@style/spinner_style2"
+        android:prompt="@string/citys"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/bt_ch"
+        android:layout_width="195dp"
+        android:layout_height="144dp"
+        android:layout_marginBottom="383dp"
+        android:layout_marginStart="7dp"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
